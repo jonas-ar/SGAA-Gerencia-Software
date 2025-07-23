@@ -4,6 +4,7 @@ export interface Activity {
   description: string;
   type: 'COURSE' | 'WORKSHOP' | 'SEMINAR' | 'RESEARCH' | 'EXTENSION' | 'OTHER';
   status: 'ACTIVE' | 'UPCOMING' | 'COMPLETED' | 'CANCELLED';
+  modality?: 'PRESENTIAL' | 'ONLINE' | 'HYBRID';
   startDate: string;
   endDate: string;
   time?: string;
@@ -23,6 +24,7 @@ export const defaultActivities: Activity[] = [
     description: 'Aprenda desenvolvimento web com HTML, CSS, JavaScript e React. Curso prático com projetos reais.',
     type: 'COURSE',
     status: 'UPCOMING',
+    modality: 'PRESENTIAL',
     startDate: '2025-03-01',
     endDate: '2025-05-30',
     time: '18:30 - 22:00',
