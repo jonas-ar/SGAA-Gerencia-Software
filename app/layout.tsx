@@ -40,7 +40,7 @@ export default function RootLayout({
           <div className="min-h-screen flex flex-col">
             <button
               onClick={() => setIsNavbarVisible(!isNavbarVisible)}
-              className={`fixed z-[60] top-4 ${isNavbarVisible ? 'left-[270px]' : 'left-4'} p-2 bg-white/90 backdrop-blur rounded-lg shadow-lg hover:bg-white transition-all duration-300`}
+              className={`fixed z-[60] top-4 ${isNavbarVisible ? 'left-[270px]' : 'left-4'} p-2 bg-white/90 backdrop-blur rounded-lg shadow-lg hover:bg-white transition-all duration-300 dark:bg-customDark dark:darkText`}
               aria-label={isNavbarVisible ? 'Ocultar menu' : 'Mostrar menu'}
             >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
