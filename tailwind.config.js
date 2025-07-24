@@ -13,6 +13,8 @@ module.exports = {
         secondary: 'var(--secondary-color)',
         background: 'var(--background-color)',
         text: 'var(--text-color)',
+        customDark: '#5a5a5a',
+        darkText: '#ffffff',
       },
       animation: {
         fadeIn: 'fadeIn 0.5s ease-in-out',
